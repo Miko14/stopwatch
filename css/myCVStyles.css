@@ -1,0 +1,32 @@
+body {
+	padding: 20px;
+	width: 100%;
+}
+
+main {
+	margin-top: 150px;
+}
+
+.button-wrapper {
+	width: 300px;
+}
+
+.time-wrapper {
+	width: 460px;	
+}
+
+#time {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	font-size: 5em;
+	font-weight: 900;
+	color: #075757;
+}
+
+#miliSeconds {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: 900;
+	color: #075757;
+}
