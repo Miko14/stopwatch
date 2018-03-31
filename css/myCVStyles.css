@@ -12,7 +12,7 @@ main {
 }
 
 .time-wrapper {
-	width: 460px;	
+	width: 460px;
 }
 
 #time {
@@ -29,4 +29,18 @@ main {
 	font-size: 2.5em;
 	font-weight: 900;
 	color: #075757;
+}
+
+@media (max-width: 768px) {
+	.time-wrapper {
+		width: 280px;	
+	}
+
+	#time {
+		font-size: 3em;
+	}
+	
+	#miliSeconds {
+		font-size: 1.5em;
+	}
 }
